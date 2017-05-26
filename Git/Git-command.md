@@ -54,10 +54,3 @@
   ```
   git push origin :name-of-branch
   ```
-  
-10.cherry-pick
-
-  ```
-  git cherry-pick <commit-id>  
-  ``` 
-
