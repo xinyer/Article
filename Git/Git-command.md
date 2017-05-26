@@ -30,5 +30,27 @@
   ```
   git push origin master
   ```
-  
-  6. 新建本地分支
+
+6. 新建本地分支
+
+  ```
+  git checkout -b name-of-branch
+  ```
+
+7. 本地分支推送到远程
+
+  ```
+  git push origin name-of-branch
+  ```
+
+8. 删除本地分支
+
+  ```
+  git branch -d name-of-branch
+  ```
+
+9. 删除远程分支
+
+  ```
+  git push origin :name-of-branch
+  ```
