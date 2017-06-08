@@ -86,7 +86,8 @@ offset：返回记录的开始位置
 
 
 4. 单参数多字段
-使用, 分隔，如
+使用, 分隔, 如
+
 ```
 /users/1?fields=name,age,city
 ```
