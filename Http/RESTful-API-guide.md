@@ -147,22 +147,19 @@ DELETE /zoos/ID/animals/ID：删除某个指定动物园的指定动物
 # API文档
 ## 导航
 * 分两级标题显示，一级标题标明属于哪个模块，二级标题标明具体功能
-```
 以Github Api为例
 
--Overview
---| Media Types
---| OAuth Authorizations API
---| API Previews
+Overview
+|_ Media Types
+|_ OAuth Authorizations API
+|_ API Previews
 
--Activity
---| Events
---| Feeds
+Activity
+|_ Events
+|_ Feeds
 
--Gists
---| Comments
-
-```
+Gists
+|_ Comments
  
 
 ## 格式
@@ -170,7 +167,7 @@ DELETE /zoos/ID/animals/ID：删除某个指定动物园的指定动物
 标题、描述、URL、参数、response格式
 
 比如:
----
+
 ### List email addresses for a user
 List email for the specified user.
 
