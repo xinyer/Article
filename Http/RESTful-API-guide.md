@@ -63,15 +63,15 @@ DELETE /zoos/ID/animals/ID：删除某个指定动物园的指定动物
 
 3. 分页
 
+```
+?limit=10&page=1
+```
+
+
 ?limit=10&offset=10
 
-
-limit：返回记录数量
-offset：返回记录的开始位置
-
-
-4. 单参数多字段
-使用, 分隔, 如
+limit：返回记录数量4. 单参数多字段
+4. 使用, 分隔, 如
 
 ```
 /users/1?fields=name,age,city
