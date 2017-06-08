@@ -66,7 +66,7 @@ DELETE /zoos/ID/animals/ID：删除某个指定动物园的指定动物
 ```
 
 # Request
-1. GET 非id的参数使用'?'方式传输
+1. GET 非id的参数使用?方式传输
 
 ```
 /users/1?state=closed
@@ -76,7 +76,10 @@ DELETE /zoos/ID/animals/ID：删除某个指定动物园的指定动物
 
 3. 分页
 
-`?limit=10&offset=10`
+```
+?limit=10&offset=10
+```
+
 
 limit：返回记录数量
 offset：返回记录的开始位置
