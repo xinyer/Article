@@ -2,15 +2,18 @@
 1. 不要用大写
 2. 单词间使用分割线‘-’，不要使用下划线‘_’
 3. 不使用动词，资源要使用名词复数形式，如：users、rooms、tickets，而且所用名词往往与数据库的表名对应
+
 ```
 https://api.example.com/v1/zoos
 https://api.example.com/v1/animals
 https://api.example.com/v1/employees
 ```
+
 4. 在URI体现资源而非动作
 比如比如 /user/1/update ，其中update就是一个动作，正确的做法应该是 使用PUT动作 URI为 /user/1
 
 5. 层级 >= 三层，则使用'?'带参数
+
 ```
 users/1/address/2/citys (bad) /citys?users=1&address=2; (good)
 ```
@@ -38,6 +41,7 @@ users/1/address/2/citys (bad) /citys?users=1&address=2; (good)
 获取信息，关于资源的哪些属性是客户端可以改变的
 
 例子
+
 ```
 GET /zoos：列出所有动物园
 POST /zoos：新建一个动物园
@@ -52,16 +56,16 @@ DELETE /zoos/ID/animals/ID：删除某个指定动物园的指定动物
 # 复杂查询
 * 尽量不要使用多个单词拼接的方式，如果不可避免使用‘_’下划线
 
-```
+
 ?limit=10：指定返回记录的数量
-?offset=10：指定返回记录的开始位置。
-?page=2&count=100：指定第几页，以及每页的记录数。
-?sortby=name&order=asc：指定返回结果按照哪个属性排序，以及排序顺序。
+?offset=10：指定返回记录的开始位置
+?page=2&count=100：指定第几页，以及每页的记录数
+?sortby=name&order=asc：指定返回结果按照哪个属性排序，以及排序顺序
 ?animal_type_id=1：指定筛选条件
-```
 
 # Request
 1. GET 非id的参数使用'?'方式传输
+
 ```
 /users/1?state=closed
 ```
