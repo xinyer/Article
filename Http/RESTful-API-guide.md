@@ -2,21 +2,9 @@
 1. 不要用大写
 2. 单词间使用分割线‘-’，不要使用下划线‘_’
 3. 不使用动词，资源要使用名词复数形式，如：users、rooms、tickets，而且所用名词往往与数据库的表名对应
-
-```
-https://api.example.com/v1/zoos
-https://api.example.com/v1/animals
-https://api.example.com/v1/employees
-```
-
 4. 在URI体现资源而非动作
 比如比如 /user/1/update ，其中update就是一个动作，正确的做法应该是 使用PUT动作 URI为 /user/1
-
 5. 层级 >= 三层，则使用'?'带参数
-
-```
-users/1/address/2/citys (bad) /citys?users=1&address=2; (good)
-```
 
 # HTTP动词
 * GET（SELECT）
@@ -71,7 +59,7 @@ DELETE /zoos/ID/animals/ID：删除某个指定动物园的指定动物
 /users/1?state=closed
 ```
 
-2. POST PATCH PUT DELETE 非id的参数使用body传输，并且应该encode
+2. 非id的参数使用body传输，并且应该encode
 
 3. 分页
 
