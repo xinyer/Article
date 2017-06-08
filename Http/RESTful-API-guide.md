@@ -56,12 +56,14 @@ DELETE /zoos/ID/animals/ID：删除某个指定动物园的指定动物
 # 复杂查询
 * 尽量不要使用多个单词拼接的方式，如果不可避免使用‘_’下划线
 
-
+```
 ?limit=10：指定返回记录的数量
 ?offset=10：指定返回记录的开始位置
 ?page=2&count=100：指定第几页，以及每页的记录数
 ?sortby=name&order=asc：指定返回结果按照哪个属性排序，以及排序顺序
 ?animal_type_id=1：指定筛选条件
+
+```
 
 # Request
 1. GET 非id的参数使用'?'方式传输
@@ -73,12 +75,15 @@ DELETE /zoos/ID/animals/ID：删除某个指定动物园的指定动物
 2. POST PATCH PUT DELETE 非id的参数使用body传输，并且应该encode
 
 3. 分页
+
+
 ```
 ?limit=10&offset=10
-
-limit：返回记录数量
-offset：返回记录的开始位置
 ```
+
+  limit：返回记录数量
+  offset：返回记录的开始位置
+
 
 4. 单参数多字段
 使用, 分隔，如
