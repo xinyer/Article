@@ -1,3 +1,5 @@
+![](images/git.png)
+
 # Git命令
 
 1. 新建Repository／初始化本地Repository
@@ -53,4 +55,81 @@
 
   ```
   git push origin :name-of-branch
+  ```
+
+10. cherry-pick
+
+  ```
+  合并一个其他分支的commit到当前分支
+  git cherry-pick commit-id
+  ```
+
+11. clone
+
+  ```
+  git clone repo-url
+  ```
+
+12. 配置git信息
+
+  ```
+  查看所有配置信息
+  git config --list
+  ```
+
+  ```
+  设置提交代码时的用户信息
+  git config [--global] user.name "[name]"
+  git config [--global] user.email "[email address]"
+  ```
+
+13. 查看分支
+
+  ```
+  查看本地分支
+  git branch
+  ```
+
+  ```
+  查看所有远程分支
+  git branch -r
+  ```
+
+  ```
+  查看所有分支
+  git branch -a
+  ```
+
+14. stash
+
+  ```
+  暂存代码
+  git stash save "save message"
+  ```
+
+  ```
+  查看所有暂存信息
+  git stash list
+  ```
+
+  ```
+  移除暂存
+  git stash pop stash-id
+  ```
+
+  ```
+  清空暂存区
+  git stash clear
+  ```
+
+15. .gitignore
+
+  ```
+  修改.gitignore文件之后，使之生效
+
+  git rm -r --cached .
+  git add .
+
+  之后可以进行提交：
+  git commit -m "fixed untracked files"
   ```
