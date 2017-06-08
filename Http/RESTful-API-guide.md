@@ -81,8 +81,8 @@ DELETE /zoos/ID/animals/ID：删除某个指定动物园的指定动物
 ?limit=10&offset=10
 ```
 
-  limit：返回记录数量
-  offset：返回记录的开始位置
+    limit：返回记录数量
+      offset：返回记录的开始位置
 
 
 4. 单参数多字段
