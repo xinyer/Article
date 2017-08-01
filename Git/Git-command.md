@@ -133,3 +133,46 @@
   之后可以进行提交：
   git commit -m "fixed untracked files"
   ```
+
+16. 查看远程tag
+
+  ```
+  git ls-remote --tags
+  ```
+
+17. 新建本地tag
+
+  ```
+  含附注的标签
+  git tag -a v1.4 -m 'my version 1.4'
+
+  轻量级标签
+  git tag v1.4
+  ```
+
+18. 查看tag信息
+
+  ```
+  git show v1.4
+  ```
+
+19. 本地标签推送到远程代码库
+
+  ```
+  推送一个
+  git push origin v1.5
+
+  推送所有
+  git push origin --tags
+  ```
+
+20. 删除远程分支
+
+  ```
+  方法一
+  git push origin --delete tag <tagname>
+
+  方法二
+  git tag -d <tagname>
+  git push origin :refs/tags/<tagname>
+  ```
