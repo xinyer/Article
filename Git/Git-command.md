@@ -166,13 +166,14 @@
   git push origin --tags
   ```
 
-20. 删除远程分支
+20. 删除本地分支
 
   ```
-  方法一
-  git push origin --delete tag <tagname>
+  git branch -D branch_name
+  ```
 
-  方法二
-  git tag -d <tagname>
-  git push origin :refs/tags/<tagname>
+21. 删除远程分支
+
+  ```
+  git push origin :br
   ```
