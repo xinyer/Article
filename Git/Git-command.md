@@ -150,13 +150,25 @@
   git tag v1.4
   ```
 
-18. 查看tag信息
+18. 删除本地tag
+
+  ```
+  git tag -d tag-name
+  ```
+
+19. 删除远程tag
+
+  ```
+  git push origin :refs/tags/tagName
+  ```
+
+20. 查看tag信息
 
   ```
   git show v1.4
   ```
 
-19. 本地标签推送到远程代码库
+21. 本地标签推送到远程代码库
 
   ```
   推送一个
@@ -166,13 +178,13 @@
   git push origin --tags
   ```
 
-20. 删除本地分支
+22. 删除本地分支
 
   ```
   git branch -D branch_name
   ```
 
-21. 删除远程分支
+23. 删除远程分支
 
   ```
   git push origin :br
