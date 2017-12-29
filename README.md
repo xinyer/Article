@@ -4,13 +4,13 @@
 
 - 程序员
 - 西电本科/研究生 计算机专业
-- Github xinyer
-- Email xinyer0510@gmail.com
-- WeChat wangxinT_T
-- QQ 878898475
+- ![](images/github.png) xinyer
+- ![](images/email.png) xinyer0510@gmail.com
+- ![](images/wechat.png) wangxinT_T
+- ![](images/qq.png) 878898475
 
 ## 职业经历
 
-- 腾讯科技 开发工程师
-- 西安智园 开发工程师
-- 小喵科技 技术研发总监
+- 腾讯科技 2014.4 - 2016.5 开发工程师
+- 西安智园 2016.5 - 2016.9 开发工程师
+- 小喵科技 2016.9 - now 技术研发总监
