@@ -1,6 +1,10 @@
 # 来，写一个飞镖盘，然后插上几支飞镖
 
-先看设计师给的视频
+先看设计师给的视频 ![](images/darts_design.gif)
 
-<iframe height="498" width="510" src="http://player.youku.com/embed/XMzI3NDExNDQ1Ng==" frameborder="0" 'allowfullscreen'="">
-</iframe>
+分解需求：
+
+1. 画飞镖盘
+2. 计算飞镖落到飞镖盘的位置（中心为100分，边缘为0分）
+3. 飞镖飞入动画
+4. 飞镖掉落动画

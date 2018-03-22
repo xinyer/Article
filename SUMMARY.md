@@ -12,6 +12,7 @@
 - [Git](Git/README.md)
 
   - [Git命令](Git/Git-command.md)
+  - [同步fork](Git/Git-sync-fork.md)
 
 - [Http](Http/README.md)
 
