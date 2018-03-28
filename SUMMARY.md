@@ -20,4 +20,5 @@
 
 - [Golang](Golang/README.md)
 
-  - [基础语法1](Golang/01-基本结构.md)
+  - [01-基本结构](Golang/01-基本结构.md)
+  - [02-类型与变量](Golang/02-类型与变量.md)
