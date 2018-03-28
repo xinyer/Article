@@ -1,0 +1,61 @@
+# Go程序的一般结构
+
+- package xxx
+
+- package main 才能包含main函数，一个可执行程序只要一个main package
+
+- package 别名
+
+```go
+import std "fmt"
+
+func main()  {
+  std.Println("std")
+}
+```
+
+- 可见性原则
+
+使用大小写来决定常量、变量、接口、结构...是否可以被外部程序调用 名字首字母小写 - private 名字首字母大写 - public
+
+<<<<<<< HEAD
+- demo
+=======
+demo
+>>>>>>> ad988fb3ee4742e4f445d4292871905445b29e34
+
+```go
+//包名
+package main
+
+//导入其他包，多个引入可以使用
+// import (
+//        "fmt"
+//        "io"
+//    )
+import "fmt"
+
+//常量
+const PORT = 8080
+
+//全局变量
+var name = "go"
+
+//一般类型声明
+type count int
+
+//结构体
+type student struct {
+
+}
+
+//接口
+type person interface {
+
+}
+
+//main函数
+func main() {
+    fmt.Println("Hello")
+}
+```
