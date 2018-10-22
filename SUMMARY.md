@@ -13,6 +13,7 @@
 
   - [Git命令](Git/Git-command.md)
   - [同步fork](Git/Git-sync-fork.md)
+  - [还原与恢复](Git/Git-reset.md)
 
 - [Http](Http/README.md)
 
